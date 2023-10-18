@@ -5,6 +5,7 @@ ________________________________________________________________________________
 - Ansible is an open-source automation tool that is widely used in DevOps practices for configuration management, application deployment, task automation, and orchestration.
 - It simplifies complex infrastructure and application management tasks by providing a simple, human-readable language to describe automation workflows.
 - Ansible is agentless, meaning it doesn't require any software to be installed on the managed nodes, making it easy to use and deploy.
+
 - Ansible is installed on the control node and the contrl node manages the managed node / nodes. 
     - Control Node :
         - Ansible is installed on the Control node and from which all tasks and playbooks are executed. It is the system that you use to connect to and control other machines.
@@ -24,7 +25,6 @@ Managed Nodes:
 No specific Ansible software or agent is required on managed nodes.
 Python (version 2 or 3) must be available on the managed nodes as Ansible uses it to execute modules.
 While the terminology might differ (for example, you may hear "worker nodes" in other automation or orchestration tools), in the context of Ansible, the control node and managed nodes are the primary entities. Ansible uses a push-based model where the control node pushes configurations and tasks to the managed nodes, making it agentless and straightforward to set up.
-
 
 
 Key features and components of Ansible include:
