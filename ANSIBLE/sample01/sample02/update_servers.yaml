@@ -1,0 +1,11 @@
+- name: Update worker nodes
+  hosts: servers
+  become: yes
+  tasks:
+    - name: Update package lists
+      apt:
+        update_cache: yes
+
+    - name: Upgrade all packages
+      apt:
+        upgrade: yes
